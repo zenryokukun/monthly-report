@@ -24,12 +24,12 @@ fi
 # execute `sgcheck`
 # `sgcheck` is a comparison and montly report for GMO-BOT.
 cd ~/goproject/sgcheck
-./sgcheck "compare"
+./sgcheck
 
 # execute `oanda-backtest`
 # `oanda-backtest` is a comparison for OANDA-BOT.
 cd ~/goproject/oanda-backtest
-./oanda-backtest
+./oanda-backtest "compare"
 
 echo END
 exit 0
