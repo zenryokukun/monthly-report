@@ -31,3 +31,10 @@ GMOとOANDAのボットの月末報告スクリプトです。
 
 **report.sh**をcronで毎晩23:50分くらいに1回実行するよう登録してください。
 
+## cron登録内容
+
+毎日23時47分に実行
+
+```bash
+47 23 * * * /bin/bash /home/crypto/goproject/monthly-report/report.sh>/home/crypto/goproject/monthly-report/log 2>&1
+```
