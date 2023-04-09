@@ -12,7 +12,7 @@
 nday=`date -d "1 day" +%d`
 
 # if not end of month, exit.
-if [ $nday -ne 1]; then
+if [ $nday -ne 1 ]; then
 	echo Not end of month. Exit...
 	exit 0
 fi
